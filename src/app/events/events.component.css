@@ -1,0 +1,22 @@
+.eventclass{
+    color: white;
+    background-color:rgb(0, 9, 61);
+  
+	transition: background-color 0.5s, -webkit-background-color 0.5s, transform 0.5s, -webkit-transform 0.5s; /* Animation */
+}
+.eventclass:hover {
+    background-color:rgb(0, 12, 82);
+    -webkit-transform: scale(1.02);
+	        transform: scale(1.02);
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.events::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .events {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

@@ -1,0 +1,19 @@
+<div class="d-flex flex-column align-items-center justify-content-center p-5 ">
+    <h1 class="text-light">
+        Fun Facts about {{mm}}
+    </h1>
+    <br>
+    <br>
+
+    
+<div class="overflow-scroll facts" style="max-height:55vh;">
+
+    <div *ngFor="let fact of factsArray">
+        <div class="mx-2 my-3 rounded-4 p-4 factclass" style="font-size:18px;" >
+            {{fact}}
+        </div>
+        
+    </div>
+</div>
+</div>
+

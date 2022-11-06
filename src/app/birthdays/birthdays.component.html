@@ -1,0 +1,27 @@
+<div class="d-flex flex-column align-items-center justify-content-center p-5 ">
+    <h1 class="text-light">
+        Birthdays and Deaths
+    </h1>
+    <br>
+    <br>
+
+    
+<div class="overflow-scroll birthdays" style="max-height:55vh;">
+
+    <div *ngFor="let birthday of bornlist">
+        <div class="mx-2 my-3 rounded-4 p-4 birthclass" style="font-size:18px;">
+            <h5 class="text-success">Born</h5>
+            {{birthday}}
+        </div>
+      
+    </div>
+    
+    <div *ngFor="let died of diedlist">
+        <div class="mx-2 my-3 rounded-4 p-4 diedclass" style="font-size:18px;">
+            <h5 class="text-danger">Died</h5>
+            {{died}}
+        </div>
+       
+</div>
+</div>
+

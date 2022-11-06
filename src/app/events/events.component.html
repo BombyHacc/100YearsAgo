@@ -1,0 +1,19 @@
+<div class="d-flex flex-column align-items-center justify-content-center p-5 ">
+    <h1 class="text-light">
+        Historical Events
+    </h1>
+    <br>
+    <br>
+
+    
+<div class="overflow-scroll events" style="max-height:55vh;">
+
+    <div *ngFor="let event of finalEventList">
+        <div class="mx-2 my-3 rounded-4 p-4 eventclass" style="font-size:18px;" >
+            {{event}}
+        </div>
+        
+    </div>
+</div>
+</div>
+
