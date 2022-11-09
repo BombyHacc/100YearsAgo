@@ -1,6 +1,7 @@
 .factclass{
     color: white;
     background-color:rgb(34, 0, 78);
+    border: 1.9px solid rgb(75, 2, 170);
   
 	transition: background-color 0.5s, -webkit-background-color 0.5s, transform 0.5s, -webkit-transform 0.5s; /* Animation */
 }
